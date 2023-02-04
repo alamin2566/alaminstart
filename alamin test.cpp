@@ -1,9 +1,25 @@
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
-int main(){
+int main()
 
-   int x;
-   cout<<x;
+{
+     int T;
+     cin>>T;
+    for(int i=1;i<=T;i++)
+    {      int n;
+          cin>>n;
 
-    return 0;
+        if(n%2==0)
+        {
+            cout<<"even"<<'\n';
+        }
+        else{
+                cout<<"odd"<<'\n';
+
+
+    }
+
+
+
+}
 }

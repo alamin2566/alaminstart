@@ -1,0 +1,21 @@
+ #include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n;///
+    char row,col;
+
+    cout<<"Enter the N=";
+    cin>>n;
+
+    for(row=1;row<=n;row++) {
+
+        for(col=1;col<=row;col++){
+            char ch=col +64;
+            cout<<ch;
+            ///printf("%c",col+64);//co+96 dile abc hobe r ota dile boro hater shb hobe
+
+        }
+        cout<<endl;
+    }
+
+}
